@@ -1,0 +1,18 @@
+
+# &是锚点，后面可以拿来引用
+
+demo: &demo
+  sexaul: man
+  looks: ugly
+website_login:
+  name: susu
+  age: 22
+  sexaul: &sexaul woman
+website_order:
+  name: xuzhu
+  age: 18
+  sexaul: *sexaul
+API_goodsdetail:
+  name: lilei
+  age: 33
+  <<: *demo

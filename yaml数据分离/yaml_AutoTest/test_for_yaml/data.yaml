@@ -1,0 +1,14 @@
+-
+  username: 666666
+  password: 111111
+  assert: &success 登录成功
+
+-
+  username: 123456
+  password: 222222
+  assert: 登录失败
+
+-
+  username: 654321
+  password: 111111
+  assert: *success

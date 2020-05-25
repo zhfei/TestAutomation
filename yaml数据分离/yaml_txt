@@ -1,0 +1,48 @@
+map:
+  username: nick
+  heigh: 170
+  age: !!str 30
+  score: !!float 13.3
+  male: true
+  book: null
+  birthday: 1989-6-1 11:11:11
+  number: 1.234e+2
+  interest:
+    - basketball
+    - football
+  friends:
+    - name: fool
+      age: 13
+    - name: fool2
+      age: 14
+  relations:
+    father: fool
+    mother: fool2
+comment:
+  dddkfjdsjfdsj
+  lkdjfljljjlj
+  ljkjkjl
+comment1: >
+  dddkfjdsjfdsj
+  lkdjfljljjlj
+  ljkjkjl
+comment2: |
+  dddkfjdsjfdsj
+  lkdjfljljjlj
+  ljkjkjl
+father: &father_info
+  name: foo
+  age: 50
+moniter: *father_info
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   

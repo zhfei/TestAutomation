@@ -1,0 +1,13 @@
+
+python客户端工具
+python3 -m pip install selenium
+
+
+Google浏览器驱动下载地址：
+https://sites.google.com/a/chromium.org/chromedriver/downloads
+
+
+Google Chrome 已是最新版本
+版本 81.0.4044.138（正式版本） （64 位）
+
+下载对应当前浏览器版本的驱动
